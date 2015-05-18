@@ -9,6 +9,4 @@ describe('String#title_case') do
   it("capitalizes multiple word titles") do
     expect(("harry potter").title_case()).to(eq("Harry Potter"))
   end
-
-  #it("capitalizes ")
 end
